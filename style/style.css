@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}
+* body h1, * body h2, * body h3 {
+  font-weight: 700;
+}
+* body button {
+  text-transform: uppercase;
+  border: 1px solid #bae6ab;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background: transparent;
+  font-weight: 500;
+  display: block;
+}
+* body #header {
+  background: #ebffe4;
+  position: relative;
+}
+* body #header .lines {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 800px;
+}
+* body #header .nav {
+  padding-right: 227px;
+  padding-left: 227px;
+  padding-bottom: 118px;
+  padding-top: 57px;
+}
+* body #header .nav .menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+* body #header .nav .menu ul a {
+  color: #051101;
+  opacity: 60%;
+  text-decoration: none;
+}
+* body #header .nav .menu ul .activ {
+  color: #051101;
+  opacity: 1;
+}
+* body #header .nav .btn {
+  padding: 0;
+}
+* body #header .nav .btn button {
+  background: #5cbe3a;
+}
+* body #header .nav .btn button a {
+  color: #ffffff;
+}
+* body #header .showcase {
+  padding-right: 227px;
+  padding-left: 227px;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-slogan p {
+  text-transform: uppercase;
+  color: #5cbe3a;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-slogan p img {
+  width: 50.18px;
+  height: 17.25px;
+  margin-left: 15.58px;
+  margin-bottom: 3px;
+}
+* body #header .showcase .container-fluid .row .showcase-cont h1 {
+  font-size: 61px;
+  line-height: 120%;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-text p {
+  opacity: 70%;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-text p .green {
+  color: #5cbe3a;
+  opacity: 70%;
+  text-decoration: none;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-text p .green:hover {
+  opacity: 1;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-price {
+  display: flex;
+  flex-direction: row;
+  color: #5cbe3a;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 130%;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-price p {
+  padding-right: 1rem;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-price p:last-of-type {
+  text-decoration-line: line-through;
+  opacity: 40%;
+  font-size: 25px;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 37px;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .buttons button:first-of-type {
+  background: #5cbe3a;
+  margin-right: 30px;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .buttons button:first-of-type a {
+  color: #ffffff;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .buttons button:last-of-type a {
+  color: #5cbe3a;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-feedback {
+  display: flex;
+  flex-direction: row;
+  margin-top: 85px;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-feedback a {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 120%;
+  color: #5cbe3a;
+  margin-right: 68px;
+}
+* body #header .showcase .container-fluid .row .showcase-cont .showcase-feedback p {
+  text-transform: uppercase;
+  padding-bottom: 77px;
+}
+* body #header .showcase .container-fluid .row .col-md-7 {
+  position: static;
+}
+* body #header .showcase .container-fluid .row .col-md-7 .showcase-img {
+  position: absolute;
+  top: 0;
+  padding-top: 167px;
+  right: 0;
+  padding-right: 112px;
+}
+* body #header .showcase .container-fluid .row .col-md-7 .showcase-img .showcase-img-cont {
+  position: relative;
+}
+* body #header .showcase .container-fluid .row .col-md-7 .showcase-img .showcase-img-cont .star {
+  position: absolute;
+  top: 101px;
+  left: 56px;
+  height: 176px;
+  width: 176px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 150%;
+  background: url("/nike/img/star.png") no-repeat;
+}
+* body #header .showcase .container-fluid .row .col-md-7 .showcase-img .showcase-img-cont .star p {
+  margin-bottom: 0;
+}
+* body #header .showcase .container-fluid .row .col-md-7 .showcase-img .showcase-img-cont .products {
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  justify-content: right;
+}
+* body #header .showcase .container-fluid .row .col-md-7 .showcase-img .showcase-img-cont .products img {
+  width: 115px;
+  margin-right: 35px;
+  border: solid 1px #bee761;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
