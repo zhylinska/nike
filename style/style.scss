@@ -12,11 +12,16 @@
     font-size: 16px;
     line-height: 19px;
     font-weight: 500;
+    max-width: 1600px;
+    margin: 0 auto;
 
 
     h1, h2, h3 {
       font-weight: 700;
     }
+   .row {
+     margin: 0;
+   }
 
     @mixin cont {
       padding-right: 227px;
@@ -32,6 +37,7 @@
       border-radius: 4px;
       background: transparent;
       font-weight: 500;
+      max-width: fit-content;
     }
     .btn:hover {
       a {
@@ -79,6 +85,7 @@
 
         .btn {
           background: $green-color;
+          width: fit-content;
             a {
               color: $white-color;
             }
@@ -250,8 +257,10 @@
     #main {
       background: $white-background;
 
+
       .main-container {
-        .latest-products {
+        .main__latest-products {
+          @include cont;
           padding-top: 118px;
           padding-bottom: 118px;
 
@@ -262,6 +271,8 @@
 
             p {
               opacity: 70%;
+              padding-top: 25px;
+              line-height: 150%;
             }
           }
 
@@ -286,32 +297,137 @@
                   padding-top: 170px;
                 }
               }
-              .product-slider__stars{
 
-              }
-                .price {
-                  font-weight: bold;
-                  margin-top: 3rem;
-                }
-
-                .btn {
-                  a {
-                    color: $green-color;
-                  }
-                }
+              .product-slider__stars {
               }
 
+              .price {
+                font-weight: bold;
+                margin-top: 1.5rem;
+              }
 
-
+              .btn {
+                a {
+                  color: $green-color;
+                }
+              }
             }
           }
         }
 
+        .main__video {
+          @include cont;
+          background: url("/nike/img/video-block-background.png") no-repeat;
+          background-position: center left 65px;
+          height: 50%;
+
+          .video-container {
+            position: relative;
+            height: 45vh;
+            width: 100%;
+
+            .video__text {
+              background: #f6fff3;
+              border-radius: 10px;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .video__text-block {
+
+                h2 {
+                  max-width: 362px;
+                  padding-bottom: 1.5rem;
+                }
+
+                p {
+                  max-width: 271px;
+                  line-height: 150%;
+                }
+              }
+            }
+
+            .video__video {
+              background: url("/nike/img/video-background.png") no-repeat center/cover;
+              width: 45%;
+              height: 30vh;
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translateY(-50%);
+
+              .video__video-cont {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                  color: $green-color;
+                  background: $white-background;
+                  border-radius: 50%;
+                  border: none;
+                }
+              }
+            }
 
 
+          }
+        }
+
+        .main__best-shoes {
+
+
+          .main__best-shoes-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            width: 100%;
+            margin-top: 10rem;
+            .main__best-shoes-container__img {
+              background: url("/nike/img/best-shoes-background1.png") no-repeat top left;
+              margin-left: 5rem;
+              margin-top: 5rem;
+              img {
+                margin-left: 2em;
+                margin-top: 2rem;
+                width: 636px;
+              }
+            }
+
+            .main__best-shoes-container__text {
+                background: url("/nike/img/best-shoes-background2.png") no-repeat center;
+                padding-left: 5rem;
+              h2 {
+                max-width: 476px;
+                padding-left: 5rem;
+                padding-top: 12rem;
+              }
+               .best-shoes-p {
+                 max-width: 392px;
+                 display: flex;
+                 flex-direction: row;
+                 margin-top: 23px;
+
+                 img {
+                   width: 33px;
+                   height: 16px;
+                   margin-right: 1rem;
+                   margin-top: 10px;
+                 }
+               }
+
+            }
+          }
+        }
       }
-    }
-  }
+
+
+          }
+        }
+      }
+
 
 
 
